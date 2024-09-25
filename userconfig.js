@@ -8,7 +8,7 @@ const default_config = {
     scale: "F",
   },
   clock: {
-    format: "h:i p",
+    format: "g:i p",
     iconColor: palette.maroon,
   },
   disabled: [],
@@ -17,7 +17,7 @@ const default_config = {
   tabs: [
     {
       name: "myself",
-      background_url: "src/img/banners/cbg-9.gif",
+      background_url: "",
       categories: [
         {
           name: "bookmarks",
@@ -104,7 +104,7 @@ const default_config = {
     },
     {
       name: "dev",
-      background_url: "src/img/banners/cbg-8.gif",
+      background_url: "",
       categories: [
         {
           name: "resources",
@@ -133,23 +133,12 @@ const default_config = {
           name: "challenges",
           links: [
             {
-              name: "kaggle",
-              url: "https://www.kaggle.com",
-              icon: "brain",
-              icon_color: palette.green,
-            },
-            {
               name: "leetcode",
               url: "https://leetcode.com",
               icon: "code-plus",
               icon_color: palette.peach,
             },
-            {
-              name: "exercism",
-              url: "https://exercism.org",
-              icon: "code-minus",
-              icon_color: palette.red,
-            },
+
             {
               name: "stackoverflow",
               url: "https://stackoverflow.com",
@@ -162,28 +151,10 @@ const default_config = {
           name: "blogs",
           links: [
             {
-              name: "dou",
-              url: "https://dou.ua",
-              icon: "brand-prisma",
-              icon_color: palette.green,
-            },
-            {
               name: "hackernews",
               url: "https://news.ycombinator.com",
               icon: "brand-redhat",
               icon_color: palette.peach,
-            },
-            {
-              name: "uber research",
-              url: "https://eng.uber.com/category/articles",
-              icon: "brand-uber",
-              icon_color: palette.red,
-            },
-            {
-              name: "google research",
-              url: "https://blog.research.google",
-              icon: "hexagon-letter-g",
-              icon_color: palette.blue,
             },
           ],
         },
