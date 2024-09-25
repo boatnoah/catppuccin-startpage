@@ -162,7 +162,7 @@ const default_config = {
     },
     {
       name: "chi ll",
-      background_url: "src/img/banners/cbg-10.gif",
+      background_url: "",
       categories: [
         {
           name: "social medias",
